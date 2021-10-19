@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import AuthProvider from './Components/Hooks/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Register from './Components/Register/Register';
 import SignIn from './Components/SignIn/SignIn';
 import Specialist from './Components/Specialist/Specialist';
@@ -42,12 +43,12 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            <Route path="/appoinment">
+            <PrivateRoute path="/appoinment/:id">
               <Appoinment></Appoinment>
-            </Route>
-            <Route path="/details">
+            </PrivateRoute>
+            <PrivateRoute path="/details/:id">
               <Details></Details>
-            </Route>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

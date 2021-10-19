@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Services.css';
 
 const Services = (props) => {
-    const { serviceImg, description, serviceName } = props.data;
+    const { serviceImg, description, serviceName, key } = props.data;
 
     return (
         <div>
@@ -17,7 +17,7 @@ const Services = (props) => {
                             <div className="card-body fcolor">
                                 <h4 className="card-title">{serviceName}</h4>
                                 <p className="card-text text-secondary">{description}</p>
-                                <Link to="/details"> <button className="btn mt-4 font-color brdr ">See Details</button></Link>
+                                <Link to={`/details/${key}`}> <button className="btn mt-4 font-color brdr ">See Details</button></Link>
                             </div>
                         </div>
                     </div>
