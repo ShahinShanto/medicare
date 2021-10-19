@@ -1,0 +1,92 @@
+[
+    {
+        "key": 1,
+        "drName": "Dr. Robert Bruce",
+        "fee": "15",
+        "rTime": "10am-8pm",
+        "specialize": "Eye Specialist",
+        "serviceName": "Generic Medicine",
+        "description": "A generic drug is a pharmaceutical drug that contains the same chemical substance as a drug that was originally protected by chemical patents.",
+        "serviceImg": "https://i.ibb.co/rftG7s7/medicine-01.png",
+        "drImg": "https://i.ibb.co/rHbYR5Y/doctor5.png",
+        "time": "6.00pm-9.30pm (Everyday)"
+    },
+    {
+        "key": 2,
+        "drName": "Dr. Amanal Frond",
+        "fee": "20",
+        "rTime": "10am-8pm",
+        "specialize": "Dental Surgeon",
+        "serviceName": "Health Check & Screening",
+        "description": "Screenings are medical tests that doctors use to check for diseases and health conditions before there are any signs or symptoms.",
+        "serviceImg": "https://i.ibb.co/S6LfNVv/health-check-01.png",
+        "drImg": "https://i.ibb.co/qgBcnYj/doctor6.png",
+        "time": "6pm to 9pm(Thu & Fri off)"
+    },
+    {
+        "key": 3,
+        "drName": "Dr. George Kevin",
+        "fee": "30",
+        "rTime": "10am-8pm",
+        "specialize": "Neurosurgeon",
+        "serviceName": "Vaccination",
+        "description": "We have vaccination services for children like-Tetanus, diphtheria, and whooping cough, HepatitisA (HepA), Hepatitis B (HepB), Polio (IPV)",
+        "serviceImg": "https://i.ibb.co/ss3jmxP/vaccination-01.png",
+        "drImg": "https://i.ibb.co/tpXJQx6/doctor3.png",
+        "time": "6pm to 9pm (Sat, Mon & Wed)"
+    },
+    {
+        "key": 4,
+        "drName": "Dr. Sushmita",
+        "fee": "25",
+        "rTime": "10am-8pm",
+        "specialize": "Heart & Medicine Specialist",
+        "serviceName": "Medicine Consultation",
+        "description": "A general consultation is often sought for medical issues that affect the body, it also deals with the patient's mental health.",
+        "serviceImg": "https://i.ibb.co/9Hh5SJR/colsultation-01.png",
+        "drImg": "https://i.ibb.co/4fCCCZk/doctor4.png",
+        "time": "6.30pm to 9pm(Fri & Sat off)"
+    },
+    {
+        "key": 5,
+        "drName": "Dr. Edward Jason",
+        "fee": "35",
+        "rTime": "10am-8pm",
+        "specialize": "ENT Specialist",
+        "serviceName": "Dental Care",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders.",
+        "serviceImg": "https://i.ibb.co/SBc7ds7/teeth-01.png",
+        "drImg": "https://i.ibb.co/8Dnrr2x/doctor1.png",
+        "time": " 7-9.30pm (Thu & Fri off)"
+    },
+    {
+        "key": 6,
+        "drName": "Dr. Emma",
+        "fee": "43",
+        "rTime": "10am-8pm",
+        "specialize": "Neurosurgeon",
+        "serviceName": "Heart Disease",
+        "description": "Sometimes heart disease may be “silent” and not diagnosed until a person experiences signs or symptoms of a heart attack, heart failure, or an arrhythmia.",
+        "serviceImg": "https://i.ibb.co/D1W8Yx9/heart-01.png",
+        "drImg": "https://i.ibb.co/4mndQBR/doctor2.png",
+        "time": "8pm to 10pm(Fri off)"
+    },
+    {
+        "key": 7,
+        "drName": "Dr. Sam",
+        "fee": "26",
+        "rTime": "10am-8pm",
+        "serviceName": "Blood Test",
+        "description": "Blood tests may be done to look for signs of disease or agents that cause disease, to check for antibodies or tumor markers.",
+        "serviceImg": "https://i.ibb.co/qn3CHWW/blood-01.png"
+    },
+    {
+        "key": 8,
+        "drName": "Dr. Siqqique",
+        "fee": "37",
+        "rTime": "10am-8pm",
+        "serviceName": "Ear Treatment",
+        "description": "A middle ear infection is also known as otitis media. It's caused by fluid trapped behind the eardrum, which causes the eardrum to bulge.",
+        "serviceImg": "https://i.ibb.co/NpdRv3b/Ear-01.png"
+    }
+]
