@@ -8,7 +8,7 @@ const Specialists = (props) => {
         <div className="col">
             <div className="card brdr shadow h-100 text-center">
                 <div className="text-center">
-                    <img src={drImg} className="card-img-top img-fluid p-5 text-center" style={{ height: '21rem', width: '20rem' }} alt="..." />
+                    <img src={drImg} className="card-img-top img-fluid p-lg-5 text-center" style={{ height: '21rem', width: '20rem' }} alt="..." />
                 </div>
                 <div className="card-body">
                     <h4 className="card-title">{drName}</h4>
