@@ -20,7 +20,7 @@ const ChooseUs = () => {
                             <div className="card-body fcolor">
                                 <h5 className="card-title">
                                     Honesty & transparency</h5>
-                                <p className="card-text text-secondary">Dignissim libero donec accumsan cubilia consectetuer lobortis ornare si vehicula amet fames</p>
+                                <p className="card-text text-secondary">We are honest and transparent with our services. You will get best service from us. We care about you.</p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const ChooseUs = () => {
                             <div className="card-body fcolor">
                                 <h5 className="card-title">
                                     Extra Discount</h5>
-                                <p className="card-text text-secondary">Dignissim libero donec accumsan cubilia consectetuer lobortis ornare si vehicula amet fames</p>
+                                <p className="card-text text-secondary">You will get discounts in many services of us. You also get best service in a reasonalbe price. You value your money.</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const ChooseUs = () => {
                             <div className="card-body fcolor">
                                 <h5 className="card-title">
                                     24/7 Support</h5>
-                                <p className="card-text text-secondary">Dignissim libero donec accumsan cubilia consectetuer lobortis ornare si vehicula amet fames</p>
+                                <p className="card-text text-secondary">You will get 24/7 support from us. We are always available to help you. Your satisfaction is our goal. </p>
                             </div>
                         </div>
                     </div>
