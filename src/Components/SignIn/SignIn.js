@@ -11,43 +11,50 @@ const SignIn = () => {
     const handleGoogleLogin = () => { signInUsingGoogle().then(result => { history.push(redirect_uri) }) }
     return (
         <div>
-            <div className="container signin my-3" style={{ height: '29rem', width: '22rem' }}>
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center my-3" >
+                    <div className="col">
+                        <div className="card brdr shadow h-100">
+                            <div className="card-body signin">
+                                <h4 className="text-center pt-3 mb-3">Sign In your account</h4>
+                                <div>
+                                    <form onSubmit={handleLogin} className="row g-3">
+                                        <div className="col">
+                                            <label htmlFor="inputEmail4" className="form-label">Email</label>
+                                            <input onBlur={handleEmailChange} type="email" className="form-control" id="inputEmail4" placeholder="Email Address" />
+                                        </div>
+                                        <div className="mb-1 mt-4">
+                                            <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
+                                            <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                        </div>
+                                        <div>
+                                            {error}
+                                        </div>
+                                        <div className=" form-check">
+                                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                                            <label className="form-check-label" htmlFor="exampleCheck1">Confirm Sign In</label>
+                                        </div>
+                                        <div className="text-center  ">
+                                            <button type="submit" className="btn btn-light btncolor mt-1" style={{ height: '2.5rem', width: '11rem' }}>Sign In</button>
+                                            <div className="mt-2">
+                                                <p className=" mb-3">New Customer? <br /> <Link className="text-primary" to="/register"> Register Here.</Link></p>
+                                            </div>
 
-                <div className=" pt-4">
-                    <h5 className="text-center">Sign in to your account</h5>
-                </div>
+                                        </div>
+                                    </form>
+                                </div>
 
-                <form onSubmit={handleLogin} className="mt-5" >
-                    <div className="mb-3">
-                        <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                        <input onBlur={handleEmailChange} type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                    </div>
-                    <div className="mb-3 mt-4">
-                        <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                        <input onBlur={handlePasswordChange} type="password" className="form-control" id="exampleInputPassword1" />
-                    </div>
-                    <div>
-                        {error}
-                    </div>
-                    <div className=" mt-4 form-check">
-                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                        <label className="form-check-label" htmlFor="exampleCheck1">Confirm Sign In</label>
-                    </div>
-                    <div className="text-center  ">
-                        <button type="submit" className="btn btn-light btncolor mt-3" style={{ height: '2.5rem', width: '11rem' }}>Sign In</button>
-                        <div className="mt-2">
-                            <p>New Customer? <Link className="text-primary" to="/register"> Register Here.</Link></p>
+                            </div>
                         </div>
-
                     </div>
-
-                </form>
+                </div>
             </div>
             <div className="fcolor text-center">
-                <h6>  Or Sign  In with your<button onClick={handleGoogleLogin} className="btn"> Google Account <i className="fab fa-google-plus-g"></i></button></h6>
+                <h6>  Or Sign  In with your  <br /><button onClick={handleGoogleLogin} className="btn"> Google Account <i className="fab fa-google-plus-g"></i></button></h6>
 
             </div>
         </div>
+
     );
 };
 

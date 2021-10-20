@@ -13,9 +13,9 @@ const Department = () => {
         <div className="container">
             <div className="container-fluid mb-5 radious">
                 <div className="py-5 bg">
-                    <div className="row d-flex align-items-center d-flex justify-content-center text-color px-5">
+                    <div className="row d-flex align-items-center d-flex justify-content-center text-color">
                         <div className="col-lg-6">
-                            <h1 >DEPARTMENTS</h1>
+                            <h1 className="text-center" >DEPARTMENTS</h1>
                             <p className="py-4 text-secondary fw-light">A list of all our Departments are given below. You can see the details of our department here. Medicare Hospital's mission is to providing excellent care for patient lays out the vision for the hospital that includes medical services structured around the needs of patients.
                             </p>
                         </div>
@@ -25,7 +25,7 @@ const Department = () => {
                     </div>
                 </div>
             </div>
-            <div className="row row-cols-1 row-cols-md-4 g-4 container">
+            <div className="row row-cols-1 row-cols-md-4 g-4">
                 <div className="col">
                     <div className="card brdr shadow h-100 text-center">
                         <div className="text-center">

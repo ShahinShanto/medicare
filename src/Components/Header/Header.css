@@ -1,17 +1,17 @@
 .font-color{
-    color: #00B2B6;
+    color: #00B2B6 !important; 
     border-radius: 1px solid #00B2B6;
 }
 .font-color:hover{
-    color: white;
-    background: #00B2B6;
+    color: white !important;
+    background: #00B2B6 !important;
     border-radius: 4px;
 }
 .btn-brdr{
-    color:white;
-    background: #00B2B6;
+    color:white !important;
+    background: #00B2B6 !important;
 }
 .bg-dark:hover{
-color: white;
+color: white !important;
 
 }

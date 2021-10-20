@@ -14,7 +14,7 @@ const Specialist = (props) => {
         <div>
             <div className="container">
                 <h3 className="text-center my-4 fcolor">We Have Specialist Doctors To Solve <br /> Your Problems</h3>
-                <div className="row row-cols-1 row-cols-md-3 g-lg-4 container-fluid" >
+                <div className="row row-cols-1 row-cols-md-3 g-4" >
 
                     {
                         specialists.slice(0, 6).map(data => <Specialists key={data.key} data={data}></Specialists>)

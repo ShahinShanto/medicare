@@ -10,10 +10,10 @@ const ChooseUs = () => {
                 <p>Our promises</p>
             </div>
 
-            <div className="row row-cols-1 row-cols-lg-3 ">
-                <div className="card mb-3 shadow">
-                    <div className="row g-0 align-items-center justify-content-center">
-                        <div className="col-lg-2 text-center">
+            <div className="row row-cols-1 row-cols-lg-3">
+                <div className="card mb-3 shadow ">
+                    <div className="row align-items-center justify-content-center">
+                        <div className="col-lg-2 text-center ">
                             <i className="fas fa-heartbeat icons"></i>
                         </div>
                         <div className="col-md-10">

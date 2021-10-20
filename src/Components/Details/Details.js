@@ -20,11 +20,11 @@ const Details = () => {
     }, [services, id])
 
     return (
+
         <div>
             <div className="container">
                 <h3 className="text-center my-4 fcolor">Test Details</h3>
-                <div className="row row-cols-1 row-cols-md-3 g-lg-4 container-fluid" >
-
+                <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center" >
                     <div className="col">
                         <div className="card brdr shadow h-100">
                             <div className="">
@@ -36,7 +36,7 @@ const Details = () => {
                                 <p className="card-text">Refered Doctor: {singleService?.drName}</p>
                                 <p className="card-text">Report Time: {singleService?.rTime}</p>
                                 <div className="text-center">
-                                    <Link to="/appoinment"><button className="btn brdr font-color ">Book</button></Link>
+                                    <Link to="/appoinment/:id"><button className="btn brdr font-color ">Book</button></Link>
                                 </div>
 
                             </div>
